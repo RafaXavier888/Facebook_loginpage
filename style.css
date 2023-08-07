@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    display: flex; /* Alterado para flex */
+}
+
+.logo {
+    flex: 1; /* Ocupa 1 parte do espaço disponível */
+    text-align: left;
+    padding-left: 20px;
+}
+
+.logo img {
+    height: 128px;
+    margin: -28px;
+}
+
+.login-form {
+    flex: 1; /* Ocupa 1 parte do espaço disponível */
+    text-align: center;
+}
+
+.logo h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-form button {
+    color: #1877f2;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.login-form hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.create-account {
+    background-color: #42b72a;
+    color: #ffffff;
+}
